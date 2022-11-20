@@ -2,6 +2,7 @@ import logging
 import os
 import app.utils as utils
 
+
 from app.bayernheim import BayernHeim
 from app.immoscout import ImmoScout
 from fastapi import FastAPI
