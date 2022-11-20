@@ -16,7 +16,7 @@ def get_db_collection(collection_name: str):
     Get MongoDB Collection
     """
     client = MongoClient(
-        f"mongodb+srv://{DB_USERNAME}:{DB_PASSWORD}@cluster0-6gkyq.mongodb.net/test?retryWrites=true&w=majority&ssl_cert_reqs=CERT_NONE"
+        f"mongodb+srv://{DB_USERNAME}:{DB_PASSWORD}@cac-yccil0m-shard-00-01.jmhdozw.mongodb.net/test?retryWrites=true&w=majority&ssl_cert_reqs=CERT_NONE"
     )
     db = client[DB_NAME]
     collection = db[collection_name]
